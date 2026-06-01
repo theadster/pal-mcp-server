@@ -51,9 +51,7 @@
       "friendly_name": "OpenAI (GPT-5.2 Pro)",
       "aliases": [
         "gpt5.2-pro",
-        "gpt5.2pro",
-        "gpt5pro",
-        "gpt5-pro"
+        "gpt5.2pro"
       ],
       "intelligence_score": 18,
       "description": "GPT-5.2 Pro (400K context, 272K output) - Very advanced, reasoning model",
@@ -546,7 +544,9 @@
       "model_name": "gpt-5-pro",
       "friendly_name": "OpenAI (GPT-5 Pro)",
       "aliases": [
-        "gpt-5pro"
+        "gpt-5pro",
+        "gpt5pro",
+        "gpt5-pro"
       ],
       "intelligence_score": 17,
       "description": "GPT-5 Pro (400K context) - advanced reasoning via Responses API.",

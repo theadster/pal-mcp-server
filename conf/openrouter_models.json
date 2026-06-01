@@ -334,8 +334,7 @@
       "model_name": "openai/gpt-5.2-pro",
       "aliases": [
         "gpt5.2-pro",
-        "gpt5.2pro",
-        "gpt5pro"
+        "gpt5.2pro"
       ],
       "context_window": 400000,
       "max_output_tokens": 272000,
@@ -407,10 +406,7 @@
       "aliases": [
         "gpt5.2",
         "gpt-5.2",
-        "5.2",
-        "gpt5.1",
-        "gpt-5.1",
-        "5.1"
+        "5.2"
       ],
       "context_window": 400000,
       "max_output_tokens": 128000,
