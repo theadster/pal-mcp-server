@@ -520,6 +520,51 @@
       "intelligence_score": 20
     },
     {
+      "model_name": "openai/gpt-5.6-sol",
+      "aliases": [
+        "or-gpt5.6-sol"
+      ],
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "supports_extended_thinking": false,
+      "supports_json_mode": false,
+      "supports_function_calling": false,
+      "supports_images": true,
+      "max_image_size_mb": 5.0,
+      "description": "GPT-5.6 Sol via OpenRouter (backup route).",
+      "intelligence_score": 20
+    },
+    {
+      "model_name": "openai/gpt-5.6-terra",
+      "aliases": [
+        "or-gpt5.6-terra"
+      ],
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "supports_extended_thinking": false,
+      "supports_json_mode": false,
+      "supports_function_calling": false,
+      "supports_images": true,
+      "max_image_size_mb": 5.0,
+      "description": "GPT-5.6 Terra via OpenRouter (backup route).",
+      "intelligence_score": 19
+    },
+    {
+      "model_name": "openai/gpt-5.6-luna",
+      "aliases": [
+        "or-gpt5.6-luna"
+      ],
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "supports_extended_thinking": false,
+      "supports_json_mode": false,
+      "supports_function_calling": false,
+      "supports_images": true,
+      "max_image_size_mb": 5.0,
+      "description": "GPT-5.6 Luna via OpenRouter (backup route).",
+      "intelligence_score": 17
+    },
+    {
       "model_name": "openai/gpt-5.4",
       "aliases": [
         "or-gpt5.4"

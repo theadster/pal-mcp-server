@@ -309,6 +309,78 @@
       "temperature_constraint": "fixed"
     },
     {
+      "model_name": "gpt-5.6-terra",
+      "friendly_name": "OpenAI (GPT-5.6 Terra)",
+      "aliases": [
+        "terra",
+        "gpt5.6-terra",
+        "gpt5.6terra"
+      ],
+      "intelligence_score": 19,
+      "description": "GPT-5.6 Terra (1M context, 128K output) - balanced intelligence/cost tier of the GPT-5.6 family.",
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "supports_extended_thinking": true,
+      "supports_system_prompts": true,
+      "supports_streaming": true,
+      "supports_function_calling": true,
+      "supports_json_mode": true,
+      "supports_images": true,
+      "supports_temperature": true,
+      "max_image_size_mb": 20.0,
+      "default_reasoning_effort": "medium",
+      "allow_code_generation": true,
+      "temperature_constraint": "fixed"
+    },
+    {
+      "model_name": "gpt-5.6-sol",
+      "friendly_name": "OpenAI (GPT-5.6 Sol)",
+      "aliases": [
+        "sol",
+        "gpt5.6-sol",
+        "gpt5.6sol"
+      ],
+      "intelligence_score": 20,
+      "description": "GPT-5.6 Sol (1M context, 128K output) - flagship tier of the GPT-5.6 family.",
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "supports_extended_thinking": true,
+      "supports_system_prompts": true,
+      "supports_streaming": true,
+      "supports_function_calling": true,
+      "supports_json_mode": true,
+      "supports_images": true,
+      "supports_temperature": true,
+      "max_image_size_mb": 20.0,
+      "default_reasoning_effort": "high",
+      "allow_code_generation": true,
+      "temperature_constraint": "fixed"
+    },
+    {
+      "model_name": "gpt-5.6-luna",
+      "friendly_name": "OpenAI (GPT-5.6 Luna)",
+      "aliases": [
+        "luna",
+        "gpt5.6-luna",
+        "gpt5.6luna"
+      ],
+      "intelligence_score": 17,
+      "description": "GPT-5.6 Luna (1M context, 128K output) - fast, low-cost tier of the GPT-5.6 family.",
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "supports_extended_thinking": true,
+      "supports_system_prompts": true,
+      "supports_streaming": true,
+      "supports_function_calling": true,
+      "supports_json_mode": true,
+      "supports_images": true,
+      "supports_temperature": true,
+      "max_image_size_mb": 20.0,
+      "default_reasoning_effort": "medium",
+      "allow_code_generation": true,
+      "temperature_constraint": "fixed"
+    },
+    {
       "model_name": "gpt-5.5",
       "friendly_name": "OpenAI (GPT-5.5)",
       "aliases": [

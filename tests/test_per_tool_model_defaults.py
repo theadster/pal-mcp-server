@@ -248,7 +248,7 @@ class TestDynamicModelSelectionFlagOn:
             ModelProviderRegistry.unregister_provider(provider_type)
 
     def test_openai_selection_prefers_newest_flagships_under_flag(self):
-        """With the flag on, OpenAI prefers gpt-5.5 (reasoning/balanced) and gpt-5.4-mini (fast)."""
+        """With the flag on, OpenAI prefers gpt-5.6-sol (reasoning/balanced) and gpt-5.4-mini (fast)."""
         ModelProviderRegistry.clear_cache()
         for provider_type in list(ProviderType):
             ModelProviderRegistry.unregister_provider(provider_type)
@@ -266,9 +266,9 @@ class TestDynamicModelSelectionFlagOn:
             fast = ModelProviderRegistry.get_preferred_fallback_model(ToolModelCategory.FAST_RESPONSE)
             balanced = ModelProviderRegistry.get_preferred_fallback_model(ToolModelCategory.BALANCED)
 
-            assert extended == "gpt-5.5"
+            assert extended == "gpt-5.6-sol"
             assert fast == "gpt-5.4-mini"
-            assert balanced == "gpt-5.5"
+            assert balanced == "gpt-5.6-sol"
 
 
 class TestCustomProviderFallback:

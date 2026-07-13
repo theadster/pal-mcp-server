@@ -54,7 +54,7 @@
       "aliases": [
         "gemini-pro-2.5"
       ],
-      "intelligence_score": 18,
+      "intelligence_score": 15,
       "description": "Older Model. 1M context - Complex problems, architecture, deep analysis",
       "context_window": 1048576,
       "max_output_tokens": 65536,
@@ -164,7 +164,7 @@
         "flash3.5",
         "gemini-flash-latest"
       ],
-      "intelligence_score": 12,
+      "intelligence_score": 14,
       "description": "Newest fast model (1M context) - quick analysis, rapid iterations, supports thinking.",
       "context_window": 1048576,
       "max_output_tokens": 65536,
